@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+}
+.main {
+  flex-basis: 0;
+  flex-grow: 2;
+}
+
+.search{
+  flex-basis: 300px;
+  flex-grow: 0;
+}
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.image-gallery > .image-container {
+  flex-basis: calc(33.33333333333% - 10px);
+  margin: 5px;
+}
+.image-container > img {
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+.column {
+  width: 50%;
+}
