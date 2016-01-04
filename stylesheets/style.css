@@ -1,14 +1,16 @@
 .container {
   display: flex;
+  align-items: center;
 }
 .main {
   flex-basis: 0;
   flex-grow: 2;
 }
 
-.search{
+.search {
   flex-basis: 300px;
   flex-grow: 0;
+  justify-content: center;
 }
 
 .image-gallery {
